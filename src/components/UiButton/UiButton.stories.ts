@@ -1,15 +1,11 @@
 import { Meta, StoryObj } from '@storybook/vue3';
-
 import { UiButton } from '..';
 import { html } from '../../helpers';
 
 const meta: Meta<typeof UiButton> = {
   component: UiButton,
-  args: {},
   argTypes: {
-    layout: {
-      options: ['primary', 'secondary'],
-    },
+    layout: { options: ['primary', 'secondary'], control: 'select' },
   },
 };
 
@@ -19,7 +15,16 @@ export const Primary: StoryObj<typeof UiButton> = {
   render: (args) => ({
     components: { UiButton },
     setup: () => ({ args }),
-
-    template: html` <UiButton v-bind="args">Текст</UiButton>`,
+    template: html`<UiButton v-bind="args">text</UiButton>`,
   }),
+  args: { layout: 'primary' },
+};
+
+export const Secondary: StoryObj<typeof UiButton> = {
+  render: (args) => ({
+    components: { UiButton },
+    setup: () => ({ args }),
+    template: html`<UiButton v-bind="args">text</UiButton>`,
+  }),
+  args: { layout: 'secondary' },
 };

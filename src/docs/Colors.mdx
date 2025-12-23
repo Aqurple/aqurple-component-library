@@ -2,37 +2,27 @@ import { ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
 
 # Colors
 
+these variables are globally accessible via `:root`
+
 <ColorPalette>
-
-<ColorItem
-  title='Primary'
-  colors={{
-    '--color-primary': '#006cbb',
-  }}
-/>
-
-<ColorItem
-  title='Monochrome'
-  colors={{
-    '--color-white': '#ffffff',
-    '--color-gray-light': '#eeeeee',
-    '--color-gray': '#cccccc',
-    '--color-gray-dark': '#777777',
-    '--color-black': '#000000',
-  }}
-/>
-
-<ColorItem
-  title='Success'
-  colors={{
-    '--color-success': '#01bd78',
-  }}
-/>
-
-<ColorItem
-    title='Error'
+  <ColorItem
+    title="Primary"
+    subtitle="main accent color"
     colors={{
-      '--color-error': '#d40019',
+      '--color-primary': '#7319af',
+      '--color-primary-dark': '#5a128a',
     }}
-/>
+  />
+
+  <ColorItem
+    title="Monochrome"
+    subtitle="neutral shades for background, borders and text"
+    colors={{
+      '--color-white': '#ffffff',
+      '--color-gray-light': '#eeeeee',
+      '--color-gray': '#cccccc',
+      '--color-gray-dark': '#777777',
+      '--color-black': '#000000',
+    }}
+  />
 </ColorPalette>

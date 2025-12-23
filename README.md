@@ -1,21 +1,13 @@
-# ИС
+# aqurple component library
+— just a simple component library
 
-Сделать аккаунт на гитхабе.
-Установить:
-git
-github desktop
-vs code
-node.js 24
+**current version:** 0.1.1
 
----
+**release date and time of the current version:** 23.12.2025 08:00 UTC+03:00
 
-Склонировать себе на компьютер репозиторий https://github.com/dergunovs/is
+list of changes:
+- some nano bugfix
 
-ввести в терминале:
-git clone https://github.com/dergunovs/is.git
+made by Egor Dorokhin *aka aqurple*
 
-открыть появившуюся папку в vs code
-
-открыть терминал в vs code
-
-написать в терминале в vs code: npm install
+<a href="https://t.me/aqurple" style="display: flex; align-items: center; gap: 0.25rem"><img src="public/social-icons/telegram.svg" alt="Telegram's icon" style="width: 1.5rem">Telegram</a>

@@ -3,14 +3,14 @@
 @font-face {
   font-family: 'base';
   font-weight: 400;
-  src: url('/fonts/400.woff2') format('woff2');
+  src: url('../../public/fonts/Roboto-Regular.ttf') format('truetype');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'base';
   font-weight: 700;
-  src: url('/fonts/700.woff2') format('woff2');
+  src: url('../../public/fonts/Roboto-Bold.ttf') format('truetype');
   font-display: swap;
 }
 
